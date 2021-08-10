@@ -60,10 +60,16 @@ nav ul li {
   list-style-type: none;
   display: inline;
   margin: 0px;
-  padding: 10px;
+  
+ 
 }
-.social-icons li a:hover {
-  color: #fff;
+.social-icons li a i{
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.social-icons li a i:hover {
+  color: blue;
 }
 .mycard img {
   height: 18rem;
